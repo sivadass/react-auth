@@ -1,0 +1,22 @@
+.app{
+    width: 100%;
+    max-width: 960px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+header{
+    margin: 0 0 16px 0;
+    background: #fff;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.user-info li{
+    background: #f7f7f7;
+}
