@@ -22,7 +22,22 @@ const fakeAuth = {
 
 class App extends React.Component{
   constructor(props){
-    super();
+    super(props);
+    this.state = {
+      isAuthenticated: false
+    }
+    this.authenticate = this.authenticate.bind(this);
+    this.signout = this.signout.bind(this);
+  }
+
+  authenticate(){
+    this.isAuthenticated = true
+    setTimeout(cb, 100) // fake async
+  }
+
+  signout(cb) {
+    this.isAuthenticated = false
+    setTimeout(cb, 100)
   }
 
   render(){

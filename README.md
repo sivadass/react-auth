@@ -1,7 +1,8 @@
-# React Image Slider
+# React Auth
+React Authentication using React Router DOM
 
 ## Live Demo
-[https://sivadass.github.io/react-image-slider/](https://sivadass.github.io/react-image-slider/)
+[https://sivadass.github.io/react-auth/](https://sivadass.github.io/react-auth/)
 
 ## Setup
 
